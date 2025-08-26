@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+}
+#main-content h1 {
+  transition: color 0.3s;
+}
+#main-content h1:hover {
+  color: #0d6efd;
+}
+.btn-primary {
+  transition: box-shadow 0.3s, transform 0.2s;
+}
+.btn-primary:hover {
+  box-shadow: 0 8px 24px rgba(13,110,253,0.15);
+  transform: translateY(-2px) scale(1.04);
+}
